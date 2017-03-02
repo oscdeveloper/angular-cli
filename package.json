@@ -10,7 +10,7 @@
     "lint": "ng lint",
     "e2e": "ng e2e",
     "local": "cross-env NODE_ENV=development ng serve -v=false -sm=true -vc=true -pr=false -ec=true -w=true -p=666",
-    "build": "cross-env NODE_ENV=development ng build -v=false -sm=true -vc=true -pr=true -ec=true -w=false --output-hashing=all"
+    "prod": "cross-env NODE_ENV=production ng build -v=false -sm=false -vc=true -pr=true -ec=true -w=false --output-hashing=all"
   },
   "private": true,
   "dependencies": {
