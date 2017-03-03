@@ -19,7 +19,7 @@
       "tsconfig": "tsconfig.json",
       "prefix": "app",
       "styles": [
-        "styles.scss"
+        "assets/sass/styles.scss"
       ],
       "scripts": [],
       "environmentSource": "environments/environment.dev.ts",
